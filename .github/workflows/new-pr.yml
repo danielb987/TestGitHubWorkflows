@@ -1,7 +1,8 @@
 name: New PR
 
 permissions:
-  contents: write   # This is required to create/push the new git tag
+  issues: write
+  pull-requests: write
 
 on:
   pull_request:
